@@ -32,9 +32,53 @@
     <li><a href="catalog.html">Магазин</a></li>
     <li>Средства для ухода</li>
   </ul>
-  <section>
-    <h2>Фильтр товаров</h2>
-    <!-- Здесь будет форма -->
+
+  <section class="filters">
+    <h2 class="visually-hidden">Фильтр товаров</h2>
+    <form class="filter" method="get" action="https://echo.htmlacademy.ru"></form>
+    <fieldset>
+      <legend>ПРОИЗВОДИТЕЛИ:</legend>
+      <ul>
+        <li class="filter-option">
+          <input class="visually-hidden-filter-inpuy-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+          <label for="filter-baxter-of-california">Baxter of California</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden-filter-inpuy-checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty"checked>
+          <label for="filter-mr-natty">Mr Natty</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden-filter-inpuy-checkbox" type="checkbox" name="suavecito" id="filter-suavecito"checked>
+          <label for="filter-suavecito">Suavecito</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden-filter-inpuy-checkbox" type="checkbox" name="malin-goez" id="filter-malin-goez"checked>
+          <label for="filter-malin-goez">Malin+Goetz</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden-filter-inpuy-checkbox" type="checkbox" name="myrray's" id="filter-myrray's"checked>
+          <label for="filter-myrray's">Myrray's</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden-filter-inpuy-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" checked>
+          <label for="filter-american-crew">American Crew</label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>ГРУППЫ ТОВАРОВ:</legend>
+      <ul>
+        <li class="filter-option">
+          Средства для ухода
+        </li>
+        <li class="filter-option">
+          Бритвенные принадлежности
+        </li>
+        <li class="filter-option">
+          Аксессуары
+        </li>
+      </ul>
+    </fieldset>
   </section>
 
   <section>
